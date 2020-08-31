@@ -35,3 +35,48 @@ h2, p{
     display: inline-block;
     margin-left: 10%;
 }
+#contact{
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    background-size: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+#contact>h2{
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+#mce-FNAME, #mce-EMAIL{
+    width: 100%;
+    background-color: transparent;
+    color: white;
+}
+#mce-FNAME{
+    border: 1px solid white;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+#mce-EMAIL{
+    border: 1px solid white;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+#mce-MMERGE2{
+    width: 50%;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-left: 25%;
+}
+#mc-embedded-subscribe{
+    margin-left: 47%;
+    margin-top: 5%;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+  }
+.flex-container>div{
+    margin: 4%;
+}
