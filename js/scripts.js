@@ -7,6 +7,7 @@ $(document).ready(function () {
         $('#designing').hide();
         $('#description1').show();
     });
+
     $('#description1').on('click', function () {
         $('#description1').hide();
         $('#designing').show();
