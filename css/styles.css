@@ -80,3 +80,12 @@ h2, p{
 .flex-container>div{
     margin: 4%;
 }
+footer{
+    margin: auto;
+}
+footer>p{
+    font-size: smaller;
+}
+#description1{
+    word-wrap: break-word;
+}
