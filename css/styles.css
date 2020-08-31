@@ -89,3 +89,11 @@ footer>p{
 #description1{
     word-wrap: break-word;
 }
+#hoverdiv{
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+    padding: 8px;
+    font-size: x-large;
+}
