@@ -30,7 +30,18 @@ $(document).ready(function () {
         $('#product').show();
     });
 
+    $('.card-img-top').mousemove(function (e) {
+        let hovertext = $(this).attr('alt');
+        $('#hoverdiv').text(hovertext).show();
+        $('#hoverdiv').css({ left: e.pageX, top: e.pageY });
+    }).mouseout(function () {
+        $('#hoverdiv').hide();
+    });
 
+    $('#mc-embedded-subscribe-form').submit(function () {
+        let thanks = $('#mce-FNAME').val();
+        alert('Thank you,  ' + thanks + '. Your feedback has been received and is much appreciated.');
+    });
 
 });
 
